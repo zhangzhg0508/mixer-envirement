@@ -1,0 +1,22 @@
+# [TITLE]: kvm-host
+# [DESCRIPTION]: Run Kernel-based Virtual Machines (KVM).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+# drop ceph include because it pulled in an extra 200MB of content
+# only ceph-lib is needed for qemu so just pull it in directly
+# include(ceph)
+include(libX11client)
+bridge-utils
+dmidecode
+dnsmasq
+ebtables
+edk2
+gettext
+include(iptables)
+libvirt
+nftables
+include(polkit)
+qemu
+qemu-extras

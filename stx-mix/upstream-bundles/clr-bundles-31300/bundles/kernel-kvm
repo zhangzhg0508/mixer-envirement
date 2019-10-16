@@ -1,0 +1,11 @@
+# [TITLE]: kernel-kvm
+# [DESCRIPTION]: Run the Kernel-based Virtual Machine (KVM) specific kernel.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Kernel
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(bootloader)
+include(qemu-guest-additions)
+console-autostart
+linux-kvm
+#memshrinker

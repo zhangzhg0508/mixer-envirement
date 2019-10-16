@@ -1,0 +1,14 @@
+# [TITLE]: haproxy
+# [DESCRIPTION]: The Reliable, High Performance TCP/HTTP Load Balancer.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Sophia Gong <sophia.gong@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+haproxy

@@ -1,0 +1,15 @@
+# [TITLE]: hardware-printing
+# [DESCRIPTION]: Firmware and tools for printer support.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(libstdcpp)
+include(python3-basic)
+include(libX11client)
+
+cups
+cups-filters
+gutenprint
+hplip
+sane-backends

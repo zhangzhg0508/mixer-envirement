@@ -1,0 +1,9 @@
+# [TITLE]: kvm-host-extras
+# [DESCRIPTION]: Run virtual machines as deployed infrastructure.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(kvm-host)
+include(python3-basic)
+libvirt-python

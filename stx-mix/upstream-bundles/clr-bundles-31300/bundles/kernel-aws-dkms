@@ -1,0 +1,12 @@
+# [TITLE]: kernel-aws-dkms
+# [DESCRIPTION]: Support module for building/loading via Dynamic Kernel Module System (DKMS) in AWS kernel.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Kernel
+# [MAINTAINER]: Bernal Marin, Miguel <miguel.bernal.marin@linux.intel.com>
+
+include(c-basic)
+
+clr-ignore-mod-sig
+dkms
+linux-aws-dev

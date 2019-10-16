@@ -1,0 +1,14 @@
+# [TITLE]: kernel-rt
+# [DESCRIPTION]: Run the native kernel with preempt_rt patchset.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Kernel
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+include(bootloader)
+console-autostart
+init-rdahead-extras
+irqbalance
+include(linux-firmware)
+include(linux-firmware-extras)
+linux-preempt-rt
+mcelog

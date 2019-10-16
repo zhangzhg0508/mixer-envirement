@@ -1,0 +1,10 @@
+# [TITLE]: kernel-hyperv
+# [DESCRIPTION]: Run the Microsoft Hyper-V specific kernel.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Kernel
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(bootloader)
+console-autostart
+init-rdahead
+linux-hyperv

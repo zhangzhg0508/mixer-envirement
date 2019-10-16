@@ -1,0 +1,8 @@
+# [TITLE]: ImageMagick
+# [DESCRIPTION]: Create, edit, or compose bitmap images.
+# [STATUS]: Active
+# [CAPABILITIES]: Many console image manipulation utilities, screen capture, viewer.
+# [TAGS]: Multimedia and Graphics
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+include(libX11client)
+ImageMagick

@@ -1,0 +1,16 @@
+# [TITLE]: hardware-uefi
+# [DESCRIPTION]: Provides bootloader tools for booting on a UEFI based system.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Developer Tools
+# [MAINTAINER]: Otavio Pontes <otavio.pontes@intel.com>
+include(os-core)
+include(libglib)
+
+efibootmgr-bin
+console-autostart
+include(bootloader)
+irqbalance
+
+include(linux-firmware)
+include(linux-firmware-extras)

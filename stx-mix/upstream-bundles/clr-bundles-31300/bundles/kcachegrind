@@ -1,0 +1,14 @@
+# [TITLE]: kcachegrind
+# [DESCRIPTION]: Frontend visualization tool for Valgrind's cachegrind & callggrind.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(kde-frameworks5)
+
+# start of custom additions
+
+# end of custom additions
+
+# main package
+kcachegrind

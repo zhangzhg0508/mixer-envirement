@@ -1,0 +1,12 @@
+# [TITLE]: java12-basic
+# [DESCRIPTION]: Build and run Java 12 language programs.
+# [STATUS]: Active
+# [CAPABILITIES]: Compile and run basic java12 applications
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+include(libX11client)
+include(p11-kit)
+include(python3-basic)
+include(which)
+openjdk12
+openjdk12-dev

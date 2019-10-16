@@ -1,0 +1,45 @@
+# [TITLE]: kde-frameworks5
+# [DESCRIPTION]: Common KDE Frameworks 5 libraries.
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(qt-basic)
+include(lib-qt5webengine)
+
+# Libraries
+kactivities
+karchive
+kbookmarks
+kcodecs
+kcompletion
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+kfilemetadata
+ki18n
+kiconthemes
+kio
+kitemmodels
+kitemviews
+kjobwidgets
+kjs
+knewstuff
+knotifications
+knotifyconfig
+kparts
+kplotting
+kpty
+kservice
+ktextwidgets
+kwallet
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+solid
+sonnet
+threadweaver
+
+# Misc
+breeze-icons

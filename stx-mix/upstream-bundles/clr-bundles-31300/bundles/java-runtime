@@ -1,0 +1,7 @@
+# [TITLE]: java-runtime
+# [DESCRIPTION]: Runtime environment for Java language programs.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Programming Languages
+# [MAINTAINER]: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+openjdk

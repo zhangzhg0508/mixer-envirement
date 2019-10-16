@@ -1,0 +1,17 @@
+# [TITLE]: kleopatra
+# [DESCRIPTION]: Certificate Manager and Unified Crypto GUI.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Security
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(kde-frameworks5)
+include(qt-basic)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+kleopatra

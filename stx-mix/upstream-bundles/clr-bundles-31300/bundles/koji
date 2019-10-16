@@ -1,0 +1,16 @@
+# [TITLE]: koji
+# [DESCRIPTION]: Set up a koji build service based on NFS mounts.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: George T Kramer <george.t.kramer@intel.com>
+include(git)
+include(httpd)
+include(mod_wsgi)
+include(nfs-utils)
+include(package-utils)
+include(postgresql)
+include(sudo)
+
+koji
+koji-extras

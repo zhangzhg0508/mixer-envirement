@@ -1,0 +1,20 @@
+# [TITLE]: hpc-utils
+# [DESCRIPTION]: Provide userspace management programs for various HPC-related programs.
+# [STATUS]: WIP
+# [CAPABILITIES]: Manage RDMA and IB devices.
+# [TAGS]: Data Science, Perl
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+include(libstdcpp)
+
+# rdma-core-extra pulls in perl
+include(perl-basic)
+include(libglib)
+
+dapl
+libvma
+mstflint
+opa-psm2
+opensm
+perftest
+rdma-core
+rdma-core-extras
