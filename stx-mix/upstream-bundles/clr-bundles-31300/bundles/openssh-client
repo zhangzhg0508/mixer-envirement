@@ -1,0 +1,13 @@
+# [TITLE]: openssh-client
+# [DESCRIPTION]: Connect to SSH servers
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Networking
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(lib-openssl)
+openssh-bin
+openssh-config
+openssh-data
+openssh-doc
+openssh-license
+openssh-man

@@ -1,0 +1,17 @@
+# [TITLE]: package-utils
+# [DESCRIPTION]: Utilities for creating, building, and managing packages.
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Python, Perl
+# [MAINTAINER]: George T Kramer <george.t.kramer@intel.com>
+include(python3-basic)
+# sad
+include(perl-basic)
+createrepo_c
+include(dnf)
+mock
+python-rpm
+rpm
+rpm-build
+rpm-common
+usermode

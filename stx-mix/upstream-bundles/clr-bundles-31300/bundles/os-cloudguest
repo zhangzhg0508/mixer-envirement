@@ -1,0 +1,19 @@
+# [TITLE]: os-cloudguest
+# [DESCRIPTION]: Run any initialization processes required of a generic cloud guest virtual machine (VM).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Julio Montes <julio.montes@intel.com>
+include(ethtool)
+include(openssh-server)
+include(sudo)
+include(libglib)
+include(python-basic)
+
+micro-config-drive
+e2fsprogs-bin
+glib-lib
+json-glib-lib
+parted-lib
+util-linux-lib
+yaml-lib

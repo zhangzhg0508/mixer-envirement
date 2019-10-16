@@ -1,0 +1,10 @@
+# [TITLE]: python-qt
+# [DESCRIPTION]: Run python programs that use the Qt runtime.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Kevron Rees <kevron.m.rees@intel.com>
+include(qt-basic)
+
+pyotherside
+pyside2-setup

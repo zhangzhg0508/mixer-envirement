@@ -1,0 +1,21 @@
+# [TITLE]: os-cloudguest-azure
+# [DESCRIPTION]: Run any initialization process requried of an Azure cloud guest virtual machine (VM).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(ethtool)
+include(openssh-server)
+include(openssl)
+include(python3-basic)
+include(sudo)
+WALinuxAgent
+at
+azure-configs
+dyskctl
+e2fsprogs-bin
+e2fsprogs-extras
+kexec-tools
+linux-tools-hyperv
+include(net-tools)
+include(parted)

@@ -1,0 +1,11 @@
+# [TITLE]: os-cloudguest-vmware-gui
+# [DESCRIPTION]: Run any initialization processes required for VMWare VMs.
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(libstdcpp)
+include(os-cloudguest-vmware)
+include(libX11client)
+
+open-vm-tools-extras

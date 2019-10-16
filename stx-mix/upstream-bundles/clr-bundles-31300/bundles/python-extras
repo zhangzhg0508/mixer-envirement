@@ -1,0 +1,72 @@
+# [TITLE]: python-extras
+# [DESCRIPTION]: Improve user experience with a common set of prebuilt Python libraries.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages, Developer Tools, Python
+# [MAINTAINER]: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
+
+include(python3-basic)
+include(python3-tcl)
+include(openblas)
+include(cloud-api)
+include(Sphinx)
+include(graphviz)
+
+#
+# For the test suite
+#
+glibc-bin
+
+#
+PyYAML
+boto
+certifi
+cxxfilt
+deap
+distro
+docopt
+epydoc
+flake8
+flake8-blind-except
+flake8-class-newline
+flake8-docstrings
+glibc-lib-avx2
+intelhex
+jdcal
+kernel-config-checker
+libgfortran-avx
+lxml
+MonkeyType
+mypy
+nose
+numpy
+pathlib2
+pbr
+pytest
+pytest-cov
+pytest-repeat
+pytest-rerunfailures
+python-dateutil
+python-distutils-extra
+python-tabulate
+python-tappy
+include(python3-tcl)
+python-zeep
+python-zstandard
+requests
+requests-ntlm
+scikit-image
+scikit-learn
+scipy
+simplejson
+six
+sphinxcontrib-apidoc
+sphinxcontrib-blockdiag
+sphinxcontrib-httpdomain
+sphinxcontrib-newsfeed
+sphinxcontrib-programoutput
+sphinxcontrib-seqdiag
+sphinxcontrib-websupport
+sphinx-feature-classification
+sphinx_rtd_theme
+urllib3

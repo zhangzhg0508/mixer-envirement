@@ -1,0 +1,71 @@
+# [TITLE]: openstack-common
+# [DESCRIPTION]: A full suite of various open-stack components.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Other
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(cloud-api)
+include(perl-basic)
+include(python-extras)
+include(openblas)
+include(libstdcpp)
+include(libX11client)
+
+include(Babel)
+M2Crypto
+include(devpkg-apr-util)
+debtcollector
+elixir
+funcsigs
+include(haproxy)
+iso8601
+jsonschema
+include(keepalived)
+keystoneauth1
+include(memcached)
+monotonic
+msgpack-python
+multipath-tools
+netaddr
+netifaces
+nss-pam-ldapd
+ordereddict
+oslo.config
+oslo.context
+oslo.i18n
+oslo.log
+oslo.serialization
+oslo.utils
+otp
+pbr
+positional
+prettytable
+pyinotify
+python-dateutil
+python-keystoneclient
+pytz
+pyxattr
+rabbitmq-c
+include(rabbitmq-server)
+radvd
+requests
+include(rsync)
+setuptools
+sg3_utils
+six
+stevedore
+sysfsutils
+tgt
+watchdogd
+include(xorriso)
+
+# the base openstack components
+barbican
+cinder
+glance
+horizon
+ironic
+keystone
+neutron
+nova
+swift

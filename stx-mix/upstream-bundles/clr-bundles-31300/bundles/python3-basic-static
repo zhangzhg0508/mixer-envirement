@@ -1,0 +1,9 @@
+# [TITLE]: python3-basic-static
+# [DESCRIPTION]: Provides static libraries for the Python ecosystem.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Patrick McCarty <patrick.mccarty@intel.com>
+
+include(python3-basic)
+python3-staticdev

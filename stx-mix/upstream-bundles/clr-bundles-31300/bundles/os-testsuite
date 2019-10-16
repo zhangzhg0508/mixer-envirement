@@ -1,0 +1,28 @@
+# [TITLE]: os-testsuite
+# [DESCRIPTION]: Provides minimal functionality for core testing functions.
+# [STATUS]: Active
+# [CAPABILITIES]: TAP testing, HTTP requests, PTY automation, and various file utilities
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+include(acl)
+include(binutils)
+include(cpio)
+include(curl)
+include(diffutils)
+include(file)
+include(git)
+include(make)
+include(openssh-server)
+include(parallel)
+include(perl-basic)
+include(rsync)
+include(sudo)
+
+attr
+bats
+expect
+glibc-bin
+perl
+perl-YAML-Tiny
+socat
+tpm2-simulator

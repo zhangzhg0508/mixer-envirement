@@ -1,0 +1,11 @@
+# [TITLE]: os-cloudguest-vmware
+# [DESCRIPTION]: Run any initialization processes required for VMWare virtual machines (VM).
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(libstdcpp)
+include(lib-openssl)
+include(libglib)
+
+open-vm-tools

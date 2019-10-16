@@ -1,0 +1,11 @@
+# [TITLE]: os-core-webproxy
+# [DESCRIPTION]: Provides basic suite for using http proxies.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(os-core)
+include(libglib)
+include(p11-kit)
+
+pacrunner

@@ -1,0 +1,15 @@
+# [TITLE]: po4a
+# [DESCRIPTION]: PO for anything: Maintain the translations of your documentation
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Juro Bystricky <juro.bystricky@intel.com>
+
+include(perl-basic)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+po4a

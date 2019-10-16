@@ -1,0 +1,51 @@
+# [TITLE]: performance-tools
+# [DESCRIPTION]: Run performance and power measurements.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Python, Perl
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+include(ethtool)
+include(iproute2)
+include(perl-basic)
+include(python3-basic)
+
+include(bcc)
+blktrace
+clr-debug-info
+collectl
+cpuloadgen
+dstat
+glances
+gperf
+include(htop)
+ioping
+include(iotop)
+iptraf
+latencytop
+linux-extra
+include(linux-tools)
+# ltp is not a performance tool. it's also 800Mb in size
+#ltp
+ltrace
+msr-tools
+net-snmp
+include(net-tools)
+nicstat
+numatop
+open-lldp
+pm-graph
+include(powertop)
+include(procps-ng)
+psstop
+#
+# EVIL THIS PULLS IN PYTHON
+#
+python-hwinfo
+siege
+include(strace)
+sysdig
+include(sysstat)
+tcpdump
+time
+tiptop
+util-linux

@@ -1,0 +1,24 @@
+# [TITLE]: pidgin
+# [DESCRIPTION]: Multi-protocol instant messagging (IM) client.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Productivity
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+
+include(libX11client)
+include(libglib)
+include(gstreamer)
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(gnome-base-libs)
+pidgin-sipe
+appstream
+FreeRDP
+include(Remmina)
+include(gstreamer)
+gst-plugins-base
+gst-plugins-good
+# end of custom additions
+
+# main package
+pidgin

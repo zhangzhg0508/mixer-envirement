@@ -1,0 +1,7 @@
+# [TITLE]: python-basic-dev
+# [DESCRIPTION]: All packages required to build the python-basic bundle.
+# [STATUS]: Deprecated
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+filesystem

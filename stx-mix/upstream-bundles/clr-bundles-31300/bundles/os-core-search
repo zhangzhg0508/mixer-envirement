@@ -1,0 +1,13 @@
+# [TITLE]: os-core-search
+# [DESCRIPTION]: Provides swupd search capability.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Otavio Pontes <otavio.pontes@intel.com>
+include(os-core)
+# for swupd-search
+include(python3-basic)
+
+clr-bundles
+clr-find-bundle
+swupd-search

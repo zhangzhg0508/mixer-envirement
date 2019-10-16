@@ -1,0 +1,15 @@
+# [TITLE]: os-testsuite-automotive
+# [DESCRIPTION]: Provides minimal functionality for automotive testing functions.
+# [STATUS]: WIP
+# [CAPABILITIES]: Network utilities, USB utilities, and various utilities
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Ong, Hze Horng <hze.horng.ong@intel.com
+include(os-testsuite)
+include(os-testsuite-graphics)
+coreutils
+iputils
+iw
+libcap-bin
+include(net-tools)
+psmisc
+usbutils
