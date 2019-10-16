@@ -1,0 +1,13 @@
+# [TITLE]: scm-server
+# [DESCRIPTION]: Run a source code management server.
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: George T Kramer <george.t.kramer@intel.com>
+include(git)
+include(nginx)
+include(openssh-server)
+include(perl-basic)
+include(python3-basic)
+cgit
+gitolite

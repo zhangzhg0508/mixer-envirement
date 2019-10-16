@@ -1,0 +1,35 @@
+# [TITLE]: R-basic
+# [DESCRIPTION]: Run R language programs for statistical computing and data analysis.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages, Data Science, R
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+include(libX11client)
+
+#
+# R base packages
+#
+clr-R-helpers
+R
+include(devpkg-R)
+
+#
+# Required for performance reasons
+#
+libgfortran-avx
+glibc-lib-avx2
+gcc-libs-math
+
+# runtime deps (plotting, help navigation, etc)
+clear-font
+include(less)
+#
+# Not listed because these are part of the R core above
+#
+
+# R-foreign
+# R-nnet
+# R-lattice
+# R-MASS
+# R-Matrix
+# R-survival

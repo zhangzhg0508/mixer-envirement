@@ -1,0 +1,10 @@
+# [TITLE]: Solaar-gui
+# [DESCRIPTION]: GUI for Device manager for Logitech's Unifying Receiver peripherals
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+
+include(python3-basic)
+include(Solaar)
+Solaar-extras

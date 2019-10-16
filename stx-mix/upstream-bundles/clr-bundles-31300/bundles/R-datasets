@@ -1,0 +1,14 @@
+# [TITLE]: R-datasets
+# [DESCRIPTION]: Large datasets for R programming.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages, Data Science, R
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+include(R-basic)
+
+R-Lahman
+R-mapdata
+R-pwt
+R-spatstat.data
+R-TH.data
+R-VGAMdata

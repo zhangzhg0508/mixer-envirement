@@ -1,0 +1,41 @@
+# [TITLE]: qt-basic
+# [DESCRIPTION]: Run programs that use the Qt runtime.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(fonts-basic)
+include(libX11client)
+include(qt-core)
+
+qt3d
+qtbase
+qtcanvas3d
+qtcharts
+qtconnectivity
+qtdatavis3d
+qtdeclarative
+qtgamepad
+qtgraphicaleffects
+qtimageformats
+qtlocation
+qtmultimedia
+qtnetworkauth
+qtquickcontrols
+qtquickcontrols2
+qtscript
+qtscript-extras
+qtscxml
+qtsensors
+qtserialbus
+qtserialport
+qtspeech
+qtsvg
+qttools
+qttranslations
+qtvirtualkeyboard
+qtwayland
+qtwebchannel
+qtwebsockets
+qtx11extras
+qtxmlpatterns

@@ -1,0 +1,18 @@
+# [TITLE]: storage-cluster
+# [DESCRIPTION]: Run a storage server.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Data Science, Python
+# [MAINTAINER]: Matthew Pitterle <matthew.d.pitterle@intel.com>
+
+include(python3-basic)
+include(xfsprogs)
+
+LVM2
+LVM2-extras
+include(ceph)
+ceph-deploy
+ceph-extras
+glusterfs
+include(parted)
+pip-legacypython

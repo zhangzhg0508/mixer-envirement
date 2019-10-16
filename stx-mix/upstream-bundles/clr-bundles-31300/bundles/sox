@@ -1,0 +1,16 @@
+# [TITLE]: sox
+# [DESCRIPTION]: Audio file format and effects library
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(lib-imageformat)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+sox

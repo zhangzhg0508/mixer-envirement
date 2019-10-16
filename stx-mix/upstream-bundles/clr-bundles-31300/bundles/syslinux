@@ -1,0 +1,14 @@
+# [TITLE]: syslinux
+# [DESCRIPTION]: Kernel loader which uses a FAT, ext2/3 or iso9660 filesystem or a PXE network
+# [STATUS]: Active
+# [CAPABILITIES]: Create bootable ISO images, Install extlinux
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+syslinux-extras
+# end of custom additions
+
+# main package
+syslinux

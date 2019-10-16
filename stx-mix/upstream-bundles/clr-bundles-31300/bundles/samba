@@ -1,0 +1,19 @@
+# [TITLE]: samba
+# [DESCRIPTION]: SMB Fileserver and Active Directory (AD) Domain server.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(perl-basic)
+include(python3-basic)
+include(openldap)
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(libstdcpp)
+include(openldap)
+include(lib-samba)
+# end of custom additions
+
+# main package
+samba

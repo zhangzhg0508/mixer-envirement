@@ -1,0 +1,18 @@
+# [TITLE]: sway
+# [DESCRIPTION]: i3-compatible Wayland compositor
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libX11client)
+include(libglib)
+
+# start of custom additions (edits outside this area will be removed automatically)
+swaybg
+swayidle
+swaylock
+# end of custom additions
+
+# main package
+sway

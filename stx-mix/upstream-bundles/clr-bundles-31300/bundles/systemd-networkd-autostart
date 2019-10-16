@@ -1,0 +1,7 @@
+# [TITLE]: systemd-networkd-autostart
+# [DESCRIPTION]: Enables systemd-networkd as the default network manager
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Arzhan Kinzhalin <arzhan.i.kinzhalin@intel.com>
+systemd-extras-networkd-autostart

@@ -1,0 +1,15 @@
+# [TITLE]: subversion
+# [DESCRIPTION]: Version Control System.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Perl
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(perl-basic)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+subversion

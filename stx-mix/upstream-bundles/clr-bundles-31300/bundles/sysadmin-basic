@@ -1,0 +1,108 @@
+# [TITLE]: sysadmin-basic
+# [DESCRIPTION]: Run common utilities, useful for managing a system.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Perl
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+# This bundle specificly contains all -doc bundles for os-core as well due
+# to size constraints for os-core.
+include(iproute2)
+include(p11-kit)
+# sad
+include(perl-basic)
+include(sudo)
+include(which)
+include(acpica-unix2)
+include(libglib)
+
+also-add(aspell)
+aspell-en
+bash
+bashdb
+bzip2
+clr-hardware-files
+clr-man-pages
+clr-service-restart
+cnf
+collectl
+coreutils
+cpuid
+dbus
+dfc
+include(diffutils)
+dmidecode
+dos2unix
+dracut
+e2fsprogs
+efibootmgr
+include(file)
+include(findutils)
+gawk
+gawk-extras
+glibc-bin
+include(glibc-locale)
+gpm
+grep
+include(gzip)
+hdparm
+hostname
+include(htop)
+innoextract
+include(iperf)
+include(kbd)
+include(kernel-install)
+kmod
+ledmon
+include(less)
+libcap-bin
+LS_COLORS
+lsacpi
+lshw
+lsof
+lzop
+man-db
+include(man-pages)
+mc
+include(minicom)
+mosh
+motd-update
+nano
+ncurses
+neofetch
+nmap-extras
+numactl
+include(parallel)
+include(patch)
+pciutils
+pigz
+include(powertop)
+include(procps-ng)
+psmisc
+pv
+scowl
+screen
+sed
+setserial
+shadow
+shadow-man
+shadow-locales
+sharutils
+socat
+stow
+include(strace)
+systemd
+systemd-bootchart
+systemd-doc
+systemd-locales
+thunderbolt-software-user-space
+time
+include(tmux)
+tree
+include(tzdata)
+include(unzip)
+usbutils
+util-linux
+# mkpasswd tool is part of whois
+whois-extras
+include(xz)
+include(zstd)

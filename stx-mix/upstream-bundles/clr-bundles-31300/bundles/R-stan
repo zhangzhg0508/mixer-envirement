@@ -1,0 +1,16 @@
+# [TITLE]: R-stan
+# [DESCRIPTION]: Improve the user experience with a common set of prebuilt R libraries (stan components).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages, Data Science, R
+# [MAINTAINER]: Victor Rodriguez <victor.rodriguez.bahena@intel.com>
+include(R-basic)
+include(R-datasets)
+include(python3-basic)
+#
+# Popular R packages (stan)
+#
+R-rstan
+R-rstanarm
+R-rstantools
+R-shinystan

@@ -1,0 +1,15 @@
+# [TITLE]: qemu-guest-additions
+# [DESCRIPTION]: A lightweight multi-platform, multi-architecture disassembly framework.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(libglib)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+qemu-guest-additions

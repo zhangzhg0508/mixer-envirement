@@ -1,0 +1,15 @@
+# [TITLE]: samtools
+# [DESCRIPTION]: C library for high-throughput sequencing data formats
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(curl)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+samtools

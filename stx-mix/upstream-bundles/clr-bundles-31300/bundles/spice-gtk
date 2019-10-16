@@ -1,0 +1,20 @@
+# [TITLE]: spice-gtk
+# [DESCRIPTION]: SPICE Client GLib 2.0 library.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(libX11client)
+include(libglib)
+include(gstreamer)
+include(lib-imageformat)
+include(libstdcpp)
+include(lib-openssl)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+spice-gtk
