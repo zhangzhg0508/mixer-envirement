@@ -1,0 +1,15 @@
+# [TITLE]: vpp
+# [DESCRIPTION]: Vector Packet Processing
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(lib-openssl)
+
+# start of custom additions (edits outside this area will be removed automatically)
+also-add(dpdk)
+# end of custom additions
+
+# main package
+vpp

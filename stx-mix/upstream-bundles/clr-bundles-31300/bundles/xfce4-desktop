@@ -1,0 +1,51 @@
+# [TITLE]: xfce4-desktop
+# [DESCRIPTION]: Run the Xfce GUI desktop environment.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+include(fonts-basic)
+include(libX11client)
+include(which)
+Thunar
+Vertex-theme
+arc-theme
+clear-font
+clr-desktop-defaults
+elementary-xfce
+exo
+faba-icon-theme
+garcon
+gdk-pixbuf
+gnome-icon-theme
+gnome-themes-standard
+gtk+
+gtk-xfce-engine
+gvfs
+hicolor-icon-theme
+libnotify-bin
+libxfce4ui-bin
+mkfontdir
+mkfontscale
+moka-icon-theme
+powerline-fonts
+shared-mime-info
+thunar-volman
+xcursor-themes
+xdg-user-dirs
+xdg-utils
+xfburn
+xfce4-appfinder
+xfce4-dev-tools
+xfce4-notifyd
+xfce4-panel
+xfce4-screenshooter
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfce4-whiskermenu-plugin
+xfconf
+xfdesktop
+xfwm4
+xinit
+xrdb

@@ -1,0 +1,14 @@
+# [TITLE]: thunderbird
+# [DESCRIPTION]: Email and news client with RSS, chat, and integrated SPM filter support.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Productivity
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+thunderbird

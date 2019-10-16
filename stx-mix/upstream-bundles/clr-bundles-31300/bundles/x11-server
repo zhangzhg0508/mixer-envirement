@@ -1,0 +1,28 @@
+# [TITLE]: x11-server
+# [DESCRIPTION]: Provide a functional X11 Server (Xorg or wayland-based).
+# [STATUS]: Active
+# [CAPABILITIES]: /usr/bin/X
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+include(libX11client)
+mesa
+wayland
+weston
+xauth
+xf86-input-libinput
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-fbdev
+xf86-video-nouveau
+xf86-video-qxl
+xf86-video-vboxvideo
+xf86-video-vesa
+xf86-video-vmware
+xhost
+xinit
+xkbcomp
+xkeyboard-config
+xorg-server
+xrandr
+xrdb
+xvfb-run

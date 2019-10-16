@@ -1,0 +1,16 @@
+# [TITLE]: xpra
+# [DESCRIPTION]: runs X clients, typically on a remote host, and directs their display to the local machine without losing any state.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(python3-basic)
+include(libX11client)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+xpra

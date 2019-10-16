@@ -1,0 +1,11 @@
+# [TITLE]: virt-manager-gui
+# [DESCRIPTION]: Enable controlling virt-manager through a GUI.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(libX11client)
+include(virt-manager)
+include(gtk-vnc)
+include(spice-gtk)
+include(virt-viewer)
