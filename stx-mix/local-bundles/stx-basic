@@ -1,0 +1,36 @@
+# [TITLE]: stx-basic
+# [DESCRIPTION]: 
+# [STATUS]: 
+# [CAPABILITIES]:
+# [MAINTAINER]: 
+# 
+# List bundles one per line. Includes have format: include(bundle)
+include(application-server)
+include(database-extras)
+include(python2-basic)
+include(python-basic-dev)
+include(openstack-common)
+#include(os-clr-on-clr-dev)
+include(os-testsuite)
+#include(web-server-basic) #included in application-server
+#include(git) #included in os-testsuite
+include(network-basic)
+include(sysadmin-basic-dev)
+include(kvm-host-dev)
+#extras
+#helloworld
+#ipaddr
+#libvirt-python
+#ply
+#pyparted
+#python-mimeparse
+#pyudev
+#whatprovides
+httpd-dev
+postgresql-dev
+mariadb-dev
+cppcheck
+libevent
+libevent-dev
+facter
+virt-what

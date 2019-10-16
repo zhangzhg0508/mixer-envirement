@@ -1,0 +1,59 @@
+# [TITLE]: stx-flocks
+# [DESCRIPTION]: 
+# [STATUS]: 
+# [CAPABILITIES]:
+# [MAINTAINER]: 
+# 
+# List bundles one per line. Includes have format: include(bundle)
+include(stx-basic)
+initscripts
+tsconfig
+resource-agents
+build-info
+dpkg
+mtce
+sm
+sm-api
+sm-client
+sm-common
+sm-db
+sm-tools
+ceph-manager
+cgcs-patch
+workerconfig
+nova-api-proxy
+sysinv
+controllerconfig
+config-gate
+puppet-create-resources
+puppet-ceph
+puppet-dcdbsync
+puppet-dcmanager
+sysinv
+sysinv-agent
+puppet-dcorch
+puppet-dnsmasq
+puppet-drbd
+puppet-filemapper
+puppet-fm
+puppet-haproxy
+puppet-puppi
+#puppet-horizon
+#puppet-keystone
+puppet-ldap
+puppet-lvm
+#puppet-manifests
+puppet-mtce
+puppet-network
+puppet-nfv
+puppet-nslcd
+#puppet-openstacklib
+#puppet-oslo
+puppet-patching
+#puppet-postgresql
+#puppet-rabbitmq
+puppet-smapi
+puppet-sshd
+#puppet-staging
+puppet-stdlib
+puppet-sysinv

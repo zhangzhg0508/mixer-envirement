@@ -1,0 +1,2 @@
+#! /bin/sh
+sudo ./scripts/start_qemu.sh release.img
