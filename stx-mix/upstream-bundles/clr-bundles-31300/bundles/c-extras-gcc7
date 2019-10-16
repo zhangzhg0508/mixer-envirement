@@ -1,0 +1,11 @@
+# [TITLE]: c-extras-gcc7
+# [DESCRIPTION]: Build and run C/C++ language programs using the GCC 7.x compiler
+# [STATUS]: Active
+# [CAPABILITIES]: Build and run C language programs
+# [TAGS]: Programming Languages
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(c-basic)
+
+gcc7
+gcc7-dev

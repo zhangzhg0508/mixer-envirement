@@ -1,0 +1,39 @@
+# [TITLE]: clr-installer
+# [DESCRIPTION]: Image creation and installation for Clear Linux OS.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Developer Tools
+# [MAINTAINER]: Mark Horn <mark.d.horn@intel.com>
+include(curl)
+include(iproute2)
+include(kbd)
+include(less)
+include(libstdcpp)
+include(linux-firmware-extras)
+include(linux-firmware-wifi)
+include(glibc-locale)
+include(openssh-server)
+include(tzdata)
+include(wpa_supplicant)
+
+LVM2
+LVM2-extras
+bind-utils
+btrfs-progs
+clr-installer
+cpio-bin
+cryptsetup-bin
+cryptsetup-config
+cryptsetup-lib
+dosfstools-bin
+e2fsprogs-extras
+gptfdisk-bin
+iputils
+include(jq)
+nano
+parted-bin
+qemu-extras
+squashfs-tools-bin
+syslinux-data
+xfsprogs-bin
+xorriso-bin

@@ -1,0 +1,13 @@
+# [TITLE]: c-basic-static
+# [DESCRIPTION]: Build and run C/C++ language programs.
+# [STATUS]: Active
+# [CAPABILITIES]: Build and run C language programs
+# [TAGS]: Programming Languages
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+
+include(c-basic)
+
+glibc-staticdev
+zlib-staticdev
+zstd-staticdev

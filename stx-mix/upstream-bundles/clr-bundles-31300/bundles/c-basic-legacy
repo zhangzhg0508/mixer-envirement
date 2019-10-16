@@ -1,0 +1,44 @@
+# [TITLE]: c-basic-legacy
+# [DESCRIPTION]: Build and run 32bit C/C++ language programs.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+autoconf
+autoconf213
+autogen
+automake
+automake-dev
+include(binutils)
+binutils-dev
+binutils-doc
+binutils-locales
+include(bison)
+check
+check-dev
+cmake
+cmake-dev
+include(flex)
+gcc
+gcc-dev
+gcc-dev32
+gcc-libstdc++32
+glibc-dev
+glibc-dev32
+glibc-libc32
+include(glibc-locale)
+glibc-utils
+gmp-dev
+gmp-doc
+gmp-gmpxx
+gmp-lib
+indent
+libstdc++
+libtool
+libtool-dev
+linux-libc-headers
+m4
+include(make)
+pkg-config
+include(devpkg-zlib)
+# scons intentionally left out for now

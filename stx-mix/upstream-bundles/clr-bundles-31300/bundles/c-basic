@@ -1,0 +1,53 @@
+# [TITLE]: c-basic
+# [DESCRIPTION]: Build and run C/C++ language programs.
+# [STATUS]: Active
+# [CAPABILITIES]: Build and run C language programs
+# [TAGS]: Programming Languages
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+# perl for autoconf and friends
+include(perl-basic)
+include(nasm)
+
+autoconf
+autoconf-archive-dev
+autoconf-archive-doc
+autogen
+automake
+automake-dev
+include(binutils)
+binutils-dev
+binutils-doc
+binutils-extras
+binutils-locales
+include(bison)
+check
+cmake
+cmake-dev
+include(flex)
+gcc
+gcc-dev
+chrpath
+gettext
+glibc-dev
+include(glibc-locale)
+glibc-utils
+gmp-dev
+gmp-doc
+gmp-gmpxx
+gmp-lib
+indent
+include(intltool)
+libstdc++
+libtool
+libtool-dev
+linux-libc-headers
+include(llvm)
+llvm-dev
+m4
+include(make)
+include(nasm)
+nasm-bin
+pkg-config
+zlib-dev
+# scons intentionally left out for now

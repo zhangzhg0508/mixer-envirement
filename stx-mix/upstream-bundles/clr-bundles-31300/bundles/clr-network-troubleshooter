@@ -1,0 +1,15 @@
+# [TITLE]: clr-network-troubleshooter
+# [DESCRIPTION]: Tool to test network availability and suggest actions to fix issues.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Networking
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+
+# start of custom additions
+include(curl)
+include(perl-basic)
+# end of custom additions
+
+# main package
+clr-network-troubleshooter

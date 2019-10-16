@@ -1,0 +1,26 @@
+# [TITLE]: cloud-control
+# [DESCRIPTION]: Run a cloud orchestration server.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Matthew Pitterle <matthew.d.pitterle@intel.com>
+include(cloud-api)
+include(git)
+include(kvm-host)
+include(network-basic)
+include(openssl)
+include(python3-basic)
+#
+# Storage-cluster is huge, and while it contains ceph,
+# you don't need ceph to control remote machines
+#
+#include(storage-cluster)
+include(sudo)
+
+awscli
+botocore
+docker
+include(openssh-client)
+psmisc
+include(sqlite)
+include(xorriso)

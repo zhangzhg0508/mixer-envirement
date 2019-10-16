@@ -1,0 +1,11 @@
+# [TITLE]: c-extras-gcc8
+# [DESCRIPTION]: Build and run C/C++ language programs using the GCC 8.x compiler
+# [STATUS]: Active
+# [CAPABILITIES]: Build and run C language programs
+# [TAGS]: Programming Languages
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(c-basic)
+
+gcc8
+gcc8-dev

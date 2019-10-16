@@ -1,0 +1,38 @@
+# [TITLE]: computer-vision-basic
+# [DESCRIPTION]: Build computer vision applications.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Data Science, Python
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(cloud-api)
+include(computer-vision-models)
+include(python-extras)
+include(python-data-science)
+include(machine-learning-tensorflow)
+
+#
+# Key ML frameworks and tools
+#
+
+clinfo
+darkflow
+dldt
+dldt-dev
+dldt-doc
+dldt-extras
+intel-compute-runtime
+tensorflow
+
+# support packages
+
+mkl-dnn-dev
+numpy
+include(openblas)
+include(devpkg-opencv)
+opencv-python
+pandas
+scikit-image
+scipy-python
+tflearn
+wheel

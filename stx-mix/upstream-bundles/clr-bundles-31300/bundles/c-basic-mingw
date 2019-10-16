@@ -1,0 +1,11 @@
+# [TITLE]: c-basic-mingw
+# [DESCRIPTION]: Cross compile C/C++ language programs to Windows
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+mingw-gcc
+mingw-binutils
+mingw-crt
+mingw-crt-dev

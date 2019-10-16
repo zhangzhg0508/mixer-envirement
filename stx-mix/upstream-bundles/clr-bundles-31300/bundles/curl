@@ -1,0 +1,15 @@
+# [TITLE]: curl
+# [DESCRIPTION]: Command line tool to transfer data to/from a URL.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Tools and Utilities
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(lib-openssl)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+curl

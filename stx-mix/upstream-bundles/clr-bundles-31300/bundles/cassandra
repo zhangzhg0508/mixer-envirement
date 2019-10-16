@@ -1,0 +1,13 @@
+# [TITLE]: cassandra
+# [DESCRIPTION]: A distributed (peer-to-peer) system for the management and storage of structured data
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Data Science
+# [MAINTAINER]:Jue Wang <wang.jue@intel.com>
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+cassandra

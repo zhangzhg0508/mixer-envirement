@@ -1,0 +1,17 @@
+# [TITLE]: cryptography
+# [DESCRIPTION]: Encrypt, decrypt, sign and verify objects.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Security, Tools and Utilities
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(openssl)
+include(libglib)
+include(openssh-client)
+
+ca-certs
+gnupg
+gnutls
+nss-bin
+pinentry
+rng-tools
+rng-tools-autostart

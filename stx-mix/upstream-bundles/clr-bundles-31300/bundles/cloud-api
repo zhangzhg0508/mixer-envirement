@@ -1,0 +1,16 @@
+# [TITLE]: cloud-api
+# [DESCRIPTION]: API helpers for cloud access.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Matthew Pitterle <matthew.d.pitterle@intel.com>
+include(python3-basic)
+include(libstdcpp)
+
+awscli
+amazon-efs-utils
+boto
+boto3
+botocore
+# testing use only:
+# hypothesis
