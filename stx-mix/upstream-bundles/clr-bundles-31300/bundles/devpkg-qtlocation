@@ -1,0 +1,11 @@
+# [TITLE]: devpkg-qtlocation
+# [DESCRIPTION]: All content for pkgconfig file qtlocation.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-qtbase)
+
+qtlocation-dev

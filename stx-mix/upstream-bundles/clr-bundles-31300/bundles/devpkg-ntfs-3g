@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-ntfs-3g
+# [DESCRIPTION]: All content for pkgconfig file ntfs-3g.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+
+ntfs-3g-dev

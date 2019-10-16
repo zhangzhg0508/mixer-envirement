@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-numactl
+# [DESCRIPTION]: All content for pkgconfig file numactl.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+
+numactl-dev

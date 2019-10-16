@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-otp
+# [DESCRIPTION]: All content for otp-dev.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(devpkg-base)
+
+otp-dev
