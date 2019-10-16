@@ -1,0 +1,59 @@
+# [TITLE]: desktop-apps
+# [DESCRIPTION]: Applications for the desktop.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other, Productivity
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(libX11client)
+include(desktop-gnomelibs)
+include(python3-basic)
+
+# mandatory desktop applications
+# included apps
+include(baobab)
+include(cheese)
+include(eog)
+include(evince)
+include(evolution)
+include(file-roller)
+include(flatpak)
+include(geary)
+include(gedit)
+include(gnome-calculator)
+include(gnome-characters)
+include(gnome-color-manager)
+include(gnome-disk-utility)
+include(gnome-font-viewer)
+include(gnome-logs)
+include(gnome-music)
+include(gnome-photos)
+include(gnome-screenshot)
+include(gnome-system-monitor)
+include(gnome-todo)
+include(gnome-weather)
+include(graphviz)
+include(libva-utils)
+include(seahorse)
+include(totem)
+# apps
+dconf-editor
+eog-plugins
+evolution-ews
+graphviz-extras
+libyami-utils
+pavucontrol
+simple-scan
+
+# apps low level deps
+glib-bin
+glib-config
+
+# python specific deps
+python-zeep
+requests
+requests-ntlm
+
+# also-add apps
+also-add(emacs-x11)
+also-add(firefox)
+also-add(gvim)

@@ -1,0 +1,12 @@
+# [TITLE]: desktop-awesome
+# [DESCRIPTION]: Run a minimal desktop environment with awesome WM.
+# [STATUS]: WIP
+# [CAPABILITIES]: Run awesome as gdm session or xinit WM
+# [TAGS]: Other
+# [MAINTAINER]: Humberto Nanni <humberto.nanni@intel.com>
+include(x11-server)
+awesome-wm
+dejavu-fonts
+include(feh)
+include(rxvt-unicode)
+also-add(xscreensaver)

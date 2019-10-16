@@ -1,0 +1,43 @@
+# [TITLE]: desktop-assets
+# [DESCRIPTION]: Images and Icons for the desktop
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(desktop-gnomelibs)
+include(fonts-basic)
+
+# Shared styling assets (intended for all supported styles)
+clr-wallpapers
+
+# Material style theming assets
+materia-theme
+paper-icon-theme
+papirus-icon-theme
+plata-theme
+Qogir-theme
+vimix-icon-theme
+
+# Arc style (current default)
+arc-theme
+faba-icon-theme
+moka-icon-theme
+
+# Base fonts
+cantarell-fonts
+clear-font
+liberation-fonts
+noto-cjk
+noto-emoji
+powerline-fonts
+source-code-pro
+terminus-font
+
+# GNOME Platform assets (common)
+adwaita-icon-theme
+gnome-backgrounds
+gnome-icon-theme
+gnome-themes-standard
+hicolor-icon-theme
+sound-theme-freedesktop
+xcursor-themes

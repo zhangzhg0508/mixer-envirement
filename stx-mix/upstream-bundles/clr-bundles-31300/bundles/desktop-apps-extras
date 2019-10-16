@@ -1,0 +1,43 @@
+# [TITLE]: desktop-apps-extras
+# [DESCRIPTION]: Larger set of applications for the desktop.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other, Productivity, Developer Tools
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(desktop-gnomelibs)
+include(python3-basic)
+
+#
+# Apps that are also pundles
+#
+also-add(atom)
+also-add(darktable)
+also-add(geany)
+also-add(gimp)
+also-add(gimp)
+also-add(gphoto2)
+also-add(hexchat)
+also-add(pidgin)
+also-add(quassel)
+also-add(Remmina)
+also-add(rxvt-unicode)
+also-add(spice-gtk)
+also-add(thunderbird)
+also-add(tigervnc)
+also-add(tilix)
+also-add(vinagre)
+also-add(virt-manager)
+also-add(virt-viewer)
+also-add(vlc)
+
+
+#
+# Non-pundle apps
+#
+chrome-gnome-shell
+FreeRDP
+geany-plugins
+gmic
+libssh
+pidgin-sipe
+thermal_monitor

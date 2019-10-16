@@ -1,0 +1,46 @@
+# [TITLE]: desktop-locales
+# [DESCRIPTION]: Translations and documentation for desktop components.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other, Developer Tools
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(perl-basic)
+include(libstdcpp)
+
+also-add(aspell)
+caribou-locales
+colord-locales
+evolution-data-server-locales
+evolution-data-server-locales
+gdk-pixbuf-locales
+gdm-locales
+include(glibc-locale)
+gnome-applets-locales
+gnome-bluetooth-locales
+gnome-calendar-locales
+gnome-control-center-locales
+gnome-desktop-locales
+gnome-flashback-locales
+gnome-keyring-locales
+gnome-menus-locales
+gnome-panel-locales
+gnome-panel-locales
+gnome-session-locales
+gnome-session-locales
+gnome-settings-daemon-locales
+gnome-shell-extensions-locales
+gnome-shell-locales
+gnome-terminal-locales
+gnome-tweaks-locales
+gsettings-desktop-schemas-locales
+gtk+-locales
+gtk3-locales
+gvfs-locales
+ibus-locales
+iso-codes-locales
+libgweather-locales
+metacity-locales
+mutter-locales
+pulseaudio-locales
+shared-mime-info-locales
+xkeyboard-config-locales

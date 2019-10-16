@@ -1,0 +1,47 @@
+# [TITLE]: desktop-gnomelibs
+# [DESCRIPTION]: Helper bundle with common libraries and desktop utilities.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(libX11client)
+include(perl-basic)
+include(lib-samba)
+include(lib-imageformat)
+include(lib-opengl)
+
+accountsservice-lib
+gtk3-lib
+gtk+-lib
+alsa-lib
+gnome-shell-lib
+gstreamer-lib
+mesa-lib
+libcanberra-lib
+evolution-data-server-lib
+gjs-lib
+gnome-desktop-lib
+gnome-keyring-lib
+librsvg-lib
+ibus-lib
+atk-lib
+libnotify-lib
+alsa-plugins-lib
+libappindicator-lib
+gdk-pixbuf-lib
+libsoup-lib
+libva-lib
+colord-lib
+webkitgtk-lib
+libpeas-lib
+samba-lib
+enchant-lib
+gtksourceview-lib
+pulseaudio-lib
+libdrm-lib
+gnome-bluetooth-lib
+tdb-lib
+tracker
+tracker-extras
+pinentry
+pinentry-extras

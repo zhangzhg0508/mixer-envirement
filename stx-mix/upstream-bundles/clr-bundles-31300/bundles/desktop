@@ -1,0 +1,166 @@
+# [TITLE]: desktop
+# [DESCRIPTION]: Run the GNOME GUI desktop environment.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(libX11client)
+include(x11-server)
+include(desktop-apps)
+include(desktop-gnomelibs)
+include(desktop-assets)
+include(desktop-locales)
+include(lib-imageformat)
+
+# the UI should provide a basic sysadmin experience
+include(openssl)
+include(sysadmin-basic)
+include(which)
+include(wpa_supplicant)
+include(hardware-printing)
+
+# Low level UI requirements
+# gir/typelibs have been split out and we need them.
+atk-data
+bluez
+bolt
+caribou
+clutter
+colord
+dbus-extras
+desktop-file-utils
+fontconfig
+include(fuse)
+gdk-pixbuf
+geoclue
+geocode-glib
+include(gjs)
+glib-bin
+glib-config
+glib-networking
+gsettings-desktop-schemas
+gtk+
+gtk3
+ibus
+ibus-libpinyin
+ibus-unikey
+ibus-table
+ibus-typing-booster
+iso-codes
+json-glib
+libcanberra
+libgnomekbd
+libgweather
+libinput
+libmtp
+libnotify
+libpinyin
+librsvg
+include(linux-firmware-extras)
+also-add(linux-firmware-wifi)
+mutter
+orca
+pango
+include(pygobject)
+shared-mime-info
+telepathy-logger
+include(tzdata)
+
+# a11y
+at-spi2-core
+
+# Extra service level deps
+accountsservice
+alsa-plugins
+include(alsa-utils)
+bash-completion
+clr-desktop-defaults
+clr-fwupd-hooks
+cups
+cups-filters
+cups-pk-helper
+dhcp
+ghostscript
+gutenprint
+gnome-online-accounts
+ModemManager
+include(NetworkManager-extras)
+network-manager-applet
+NetworkManager-openconnect
+NetworkManager-vpnc
+dconf
+#groupcheck
+PackageKit
+include(polkit)
+include(pulseaudio)
+openconnect
+systemd-extras
+udisks2
+upower
+xdg-user-dirs
+xdg-user-dirs-gtk
+
+# media
+gst-plugins-ugly
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-base
+gsound
+include(gstreamer)
+gstreamer-vaapi
+intel-gmmlib
+intel-hybrid-driver
+intel-media-driver
+libva
+libva-intel-driver
+libyami
+mediasdk
+mediasdk-extras
+
+
+# gnome-flashback for vnc/software rendering support
+gnome-applets
+gnome-flashback
+gnome-panel
+metacity
+
+# Main session bits
+gdm
+gnome-desktop
+gnome-keyring
+gnome-menus
+gnome-session
+gnome-settings-daemon
+gnome-shell
+gnome-shell-extensions
+xdg-utils
+
+# Extensions for the default desktop experience
+dash-to-dock
+desktop-icons
+gnome-shell-impatience
+
+# Applications
+evolution-data-server
+also-add(flatpak)
+also-add(gimp)
+gnome-bluetooth
+gnome-calendar
+also-add(gnome-characters)
+gnome-control-center
+gnome-software
+gnome-terminal
+gnome-tweaks
+gnome-user-docs
+gnome-user-docs-doc
+gnome-video-effects
+gvfs
+also-add(nautilus)
+yelp
+
+# nice to have when using desktop
+cups
+ModemManager
+ntfs-3g
+swupd-search
+also-add(thermal_daemon)

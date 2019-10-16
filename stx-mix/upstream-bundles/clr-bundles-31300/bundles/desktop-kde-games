@@ -1,0 +1,70 @@
+# [TITLE]: desktop-kde-games
+# [DESCRIPTION]: Games for the desktop from the KDE ecosystem.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Games
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(desktop-kde-libs)
+include(perl-basic)
+include(qt-basic)
+
+
+blinken
+bomber
+bovo
+granatier
+kanagram
+kapman
+katomic
+kblackbox
+kblocks
+kbounce
+kbreakout
+kbruch
+kdiamond
+kfourinline
+kgeography
+kgoldrunner
+khangman
+kig
+kigo
+killbots
+kjumpingcube
+klettres
+klickety
+klines
+kmines
+kmouth
+knavalbattle
+knetwalk
+kolf
+kollision
+konquest
+kontactinterface
+kreversi
+kross
+kruler
+kshisen
+ksirk
+ksnakeduel
+kspaceduel
+ksquares
+ksudoku
+kteatime
+ktuberling
+kturtle
+kwordquiz
+libkdegames
+libkleo
+libkmahjongg
+libksieve
+lskat
+marble
+palapeli
+parley
+picmi
+poxml
+prison
+purpose
+sweeper

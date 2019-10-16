@@ -1,0 +1,11 @@
+# [TITLE]: desktop-autostart
+# [DESCRIPTION]: Bundle to automatically launch the GUI upon boot.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+
+include(desktop)
+
+gdm-autostart
+gnome-initial-setup

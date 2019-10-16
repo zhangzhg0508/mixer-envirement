@@ -1,0 +1,20 @@
+# [TITLE]: devpkg-evolution-data-server
+# [DESCRIPTION]: All content for pkgconfig file evolution-data-server.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-glib)
+include(libglib)
+include(devpkg-gtk3)
+include(devpkg-libical)
+include(devpkg-libsecret)
+include(devpkg-libsoup)
+include(devpkg-libxml2)
+include(devpkg-nspr)
+include(devpkg-nss)
+include(devpkg-sqlite-autoconf)
+
+evolution-data-server-dev
