@@ -1,0 +1,13 @@
+# [TITLE]: devpkg-libXfont2
+# [DESCRIPTION]: All content for pkgconfig file libXfont2.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-freetype)
+include(devpkg-libfontenc)
+include(devpkg-xorgproto)
+
+libXfont2-dev
