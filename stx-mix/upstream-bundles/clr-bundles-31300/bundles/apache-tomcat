@@ -1,0 +1,14 @@
+# [TITLE]: apache-tomcat
+# [DESCRIPTION]: Tomcat Server
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Tools and Utilities
+# [MAINTAINER]: Wang, Long <long1.wang@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(java-runtime)
+# end of custom additions
+
+# main package
+apache-tomcat

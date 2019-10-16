@@ -1,0 +1,23 @@
+# [TITLE]: akonadi
+# [DESCRIPTION]: Asynchronous API to access PIM data.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(kde-frameworks5)
+include(qt-basic)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+akonadi-calendar
+akonadi-calendar-tools
+akonadi-contacts
+akonadi-mime
+akonadi-notes
+akonadi-search
+akonadiconsole
+# end of custom additions
+
+# main package
+akonadi

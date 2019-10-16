@@ -1,0 +1,8 @@
+# [TITLE]: automotive-tools
+# [DESCRIPTION]: Various tools for automotive use cases
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+can-utils

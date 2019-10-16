@@ -1,0 +1,19 @@
+# This list defines package-scope bundles.
+# Each line contains a single package name (which will be generated as a bundle
+# of the same name containing only that package) and its corresponding
+# description.
+#
+# PLEASE DO NOT ADD GUI OR PYTHONG APPS HERE. They should be full bundle files
+# so that the proper includs can be used.
+#
+#
+# Generally these are for things in /usr/bin or system services,
+# not for libraries and the like. Even with package-bundles, bundles
+# should remain self contained functionality as an end-user would
+# perceive it.
+#
+# Do not remove things from this list without very careful coordination
+# with devops.
+#
+# This file should remain sorted.
+#

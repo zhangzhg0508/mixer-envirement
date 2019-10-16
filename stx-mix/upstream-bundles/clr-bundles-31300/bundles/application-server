@@ -1,0 +1,15 @@
+# [TITLE]: application-server
+# [DESCRIPTION]: Run an application server via HTTP.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(c-basic)
+include(python3-basic)
+include(httpd)
+include(mod_wsgi)
+include(nginx)
+include(uwsgi)
+
+httpd-dev
+httpd-extras

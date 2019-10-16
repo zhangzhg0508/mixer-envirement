@@ -1,0 +1,15 @@
+# [TITLE]: bpftrace
+# [DESCRIPTION]: High-level tracing language for Linux enhanced Berkeley Packet Filter (eBPF).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:Programming Languages
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+bpftrace

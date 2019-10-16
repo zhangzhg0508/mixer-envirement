@@ -1,0 +1,15 @@
+# [TITLE]: apache-flink
+# [DESCRIPTION]: Distributed stream and batch processing framework
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Data Science
+# [MAINTAINER]:Hongzhan Chen <hongzhan.chen@intel.com>
+
+include(java-runtime)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+apache-flink

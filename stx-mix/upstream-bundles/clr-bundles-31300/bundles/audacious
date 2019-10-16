@@ -1,0 +1,18 @@
+# [TITLE]: audacious
+# [DESCRIPTION]: Music player for Gtk/GNOME
+# [STATUS]: Active
+# [CAPABILITIES]: Play MP3, OGG, and FLAC music files
+# [TAGS]: Multimedia and Graphics
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libX11client)
+include(curl)
+include(libglib)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+audacious-plugins
+# end of custom additions
+
+# main package
+audacious

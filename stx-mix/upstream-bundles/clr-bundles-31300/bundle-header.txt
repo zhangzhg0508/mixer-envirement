@@ -1,0 +1,6 @@
+# [TITLE]: 
+# [DESCRIPTION]: 
+# [STATUS]: <WIP|Active|Deprecated|Pending-Delete>
+# [CAPABILITIES]: 
+# [TAGS]: 
+# [MAINTAINER]: Name <email@someplace.com>

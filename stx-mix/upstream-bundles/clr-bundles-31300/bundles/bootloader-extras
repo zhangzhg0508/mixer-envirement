@@ -1,0 +1,17 @@
+# [TITLE]: bootloader-extras
+# [DESCRIPTION]: Extra packages to decrypt root partition.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Security, Tools and Utilities,
+# [MAINTAINER]: Hernandez Gutierrez, Josue David <josue.d.hernandez.gutierrez@intel.com>
+
+# main package
+clr-init
+
+# kernel modules
+linux-cpio
+linux-current-cpio
+linux-lts2017-cpio
+linux-lts2018-cpio
+linux-mainline-cpio
+

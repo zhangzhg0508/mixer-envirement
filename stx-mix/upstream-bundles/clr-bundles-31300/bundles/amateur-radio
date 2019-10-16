@@ -1,0 +1,32 @@
+# [TITLE]: amateur-radio
+# [DESCRIPTION]: Applications to support ham or amateur radio operations.
+# [STATUS]: Active
+# [CAPABILITIES]: rig control, satellite tracking, packet radio
+# [TAGS]: Other
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(desktop-gnomelibs)
+include(file)
+include(libstdcpp)
+include(libX11client)
+include(python3-basic)
+include(qt-basic)
+
+codec2
+direwolf
+fldigi
+fllog
+flmsg
+flnet
+flrig
+freedv
+gpredict
+grig
+hamlib
+librtlsdr
+minimodem
+multimon-ng
+soundmodem
+wsjtx
+xastir
+xlog
