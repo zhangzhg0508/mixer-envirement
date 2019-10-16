@@ -1,0 +1,18 @@
+# [TITLE]: devpkg-libwnck3
+# [DESCRIPTION]: All content for pkgconfig file libwnck3.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-cairo)
+include(devpkg-glib)
+include(libglib)
+include(devpkg-gtk3)
+include(devpkg-libX11)
+include(devpkg-libXres)
+include(devpkg-pango)
+include(devpkg-startup-notification)
+
+libwnck3-dev
