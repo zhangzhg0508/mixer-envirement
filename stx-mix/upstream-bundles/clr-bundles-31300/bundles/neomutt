@@ -1,0 +1,17 @@
+# [TITLE]: neomutt
+# [DESCRIPTION]: Mutt mail client fork with additional features.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Productivity
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+include(libglib)
+include(openldap)
+include(gpgme)
+include(notmuch)
+# end of custom additions
+
+# main package
+neomutt

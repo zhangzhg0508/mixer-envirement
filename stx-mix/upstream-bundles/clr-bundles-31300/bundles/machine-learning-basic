@@ -1,0 +1,93 @@
+# [TITLE]: machine-learning-basic
+# [DESCRIPTION]: Build machine learning applications with a full suite of libraries.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Data Science, Python
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(c-basic)
+include(cloud-api)
+include(python-extras)
+include(python-data-science)
+
+#
+# Key ML frameworks and tools
+#
+
+include(computer-vision-basic)
+include(machine-learning-mycroft)
+include(machine-learning-pytorch)
+include(machine-learning-tensorflow)
+
+scikit-learn
+Theano
+
+
+
+#
+# Dependencies, helpers and libraries for Key frameworks
+#
+
+ConfigArgParse
+Pillow
+R-deepnet
+R-neuralnet
+R-statmod
+appdirs
+astroid
+bazel
+bokeh
+include(devpkg-boost)
+cycler-python
+include(devpkg-eigen)
+include(devpkg-fann)
+funcsigs
+gensim
+include(devpkg-gflags)
+include(devpkg-glog)
+glibc-lib-avx2
+include(devpkg-googletest)
+include(graphviz)
+h5py
+hdf5-dev
+hdf5-dev
+Keras
+leveldb-dev
+include(devpkg-libjpeg-turbo)
+lmdb-dev
+matplotlib
+mido
+mkl-dnn-dev
+mpi4py
+nose-parameterized
+numpy
+ocl-icd
+ocl-icd-dev
+include(openblas)
+include(devpkg-opencv)
+opencv-python
+openjdk-dev
+pandas
+Pillow
+posix_ipc
+include(devpkg-protobuf-c)
+protobuf-dev
+protobuf-python
+pydot
+pydotplus
+pydot_ng
+pyparsing
+python-future
+python-Levenshtein
+python-mock
+PyYAML
+scikit-image
+scipy-python
+six
+smart_open
+snappy-dev
+include(Sphinx)
+swig
+include(devpkg-tbb)
+tflearn
+tqdm
+wheel

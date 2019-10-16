@@ -1,0 +1,29 @@
+# [TITLE]: maker-cnc
+# [DESCRIPTION]: CNC carving tools for makers.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Other
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(inkscape)
+include(python-extras)
+include(maker-basic)
+
+# main CNC tools
+
+dmap2gcode
+F-Engrave
+FreeCAD
+include(openscad)
+
+
+# dependencies
+
+gtk3
+potrace
+pycairo
+include(pygobject)
+PyOpenGL
+PyYAML
+svg.path
+tcl
+tk

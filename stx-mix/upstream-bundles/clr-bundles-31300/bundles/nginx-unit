@@ -1,0 +1,15 @@
+# [TITLE]: nginx-unit
+# [DESCRIPTION]: A dynamic application server, capable of running beside NGINX
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Tools and Utilities
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(lib-openssl)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+unit

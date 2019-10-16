@@ -1,0 +1,20 @@
+# [TITLE]: machine-learning-mycroft
+# [DESCRIPTION]: Build machine learning applications with Mycroft, an open-source voice assistant, and more.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Data Science, Python
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(python-data-science)
+
+#
+# Key ML frameworks and tools
+#
+
+# mycroft-core
+
+#
+# Dependencies, helpers and libraries for Key frameworks
+#
+
+# adapt-parser

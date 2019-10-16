@@ -1,0 +1,29 @@
+# [TITLE]: mixer
+# [DESCRIPTION]: Tool to create custom Clear Linux OS releases.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Rodrigo Chiossi <rodrigo.chiossi@intel.com>
+include(containers-basic)
+include(git)
+include(openssl)
+include(os-installer)
+include(python3-basic)
+include(sysadmin-basic)
+include(zstd)
+# bundle-chroot-builder still necessary for the
+# builder.conf laid on the system.
+# TODO: move this config to the mixer package instead
+bsdiff
+bundle-chroot-builder
+clr-user-bundles-extras
+createrepo_c
+include(dnf)
+hardlink
+# dependency for bundle-chroot-builder, remove at the same time
+m4
+mixer-tools
+nosync
+python-rpm
+toml
+rpm

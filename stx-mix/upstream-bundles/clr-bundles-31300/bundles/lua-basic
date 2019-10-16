@@ -1,0 +1,10 @@
+# [TITLE]: lua-basic
+# [DESCRIPTION]: Programming language designed for extending applications.
+# [STATUS]: Active
+# [CAPABILITIES]: Lua, LuaJIT, and Luarocks
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+lua
+lua52
+LuaJIT
+luarocks

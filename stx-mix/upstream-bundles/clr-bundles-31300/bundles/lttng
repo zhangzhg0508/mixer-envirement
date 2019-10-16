@@ -1,0 +1,14 @@
+# [TITLE]: lttng
+# [DESCRIPTION]: The LTTng control and utility library is a library used to control the tracing sessions of a LTTng-session daemon
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]:
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+lttng-ust
+# end of custom additions
+
+# main package
+lttng-tools

@@ -1,0 +1,16 @@
+# [TITLE]: minetestserver
+# [DESCRIPTION]: A headless game server for minetest.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Games
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libstdcpp)
+
+# start of custom additions
+include(lib-openssl)
+# end of custom additions
+
+# main package
+minetest_game
+minetest-extras

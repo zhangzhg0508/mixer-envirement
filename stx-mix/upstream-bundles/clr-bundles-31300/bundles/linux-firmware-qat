@@ -1,0 +1,9 @@
+# [TITLE]: linux-firmware-qat
+# [DESCRIPTION]: Firmware for Intel QuickAssist
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Kernel
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+# Intel QAT firmware files as CPIO (initrd)
+linux-firmware-qat-cpio

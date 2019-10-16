@@ -1,0 +1,11 @@
+# [TITLE]: network-time-sensitive
+# [DESCRIPTION]: Various tools and plugins to set up TSN/TCC.
+# [STATUS]: WIP
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Developer Tools, Networking
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(network-basic)
+
+alsa-plugins
+include(alsa-utils)
+linuxptp

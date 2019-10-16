@@ -1,0 +1,33 @@
+# [TITLE]: maker-gis
+# [DESCRIPTION]: GIS/Mapping tools for makers.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Other
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+include(Babel)
+include(desktop-kde-libs)
+include(maker-basic)
+include(c-basic)
+
+
+
+#
+# Reference stack for GIS at https://live.osgeo.org/en/overview/overview.html
+#
+
+# low level components
+include(gdal)
+geos
+proj
+
+
+# higher layer pieces
+grass
+QGIS
+postgis
+
+# core dev compoments
+gdal-dev
+geos-dev
+proj-dev
+CGAL-dev

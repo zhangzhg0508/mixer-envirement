@@ -1,0 +1,9 @@
+# [TITLE]: lib-qt5webengine
+# [DESCRIPTION]: Run programs that use the Qt Web Engine module.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Programming Languages
+# [MAINTAINER]: Thiago Macieira <thiago.macieira@intel.com>
+include(qt-basic)
+
+qtwebengine

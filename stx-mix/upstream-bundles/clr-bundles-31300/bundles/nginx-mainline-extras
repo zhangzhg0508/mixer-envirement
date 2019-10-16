@@ -1,0 +1,17 @@
+# [TITLE]: nginx-mainline-extras
+# [DESCRIPTION]: Dynamic modules for nginx-mainline
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(lib-openssl)
+include(nginx-mainline)
+
+memc-nginx-module
+nginx_cookie_flag_module
+nginx-upload-module
+ngx_brotli
+ngx_http_auth_pam_module
+ngx_http_enhanced_memcached_module
+redis2-nginx-module

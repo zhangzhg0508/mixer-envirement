@@ -1,0 +1,17 @@
+# [TITLE]: maker-3dprinting
+# [DESCRIPTION]: 3D printing tools for makers.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Other
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(python3-basic)
+include(qt-basic)
+include(Sphinx)
+include(maker-basic)
+
+# Modeling tools
+include(openscad)
+
+# Slicers
+Cura

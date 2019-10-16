@@ -1,0 +1,12 @@
+# [TITLE]: mail-utils
+# [DESCRIPTION]: Process, read, and send email.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Productivity
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(mutt)
+imapfilter
+fetchmail
+msmtp
+include(notmuch)
+procmail

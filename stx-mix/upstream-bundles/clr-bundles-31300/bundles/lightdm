@@ -1,0 +1,33 @@
+# [TITLE]: lightdm
+# [DESCRIPTION]: LightDM login manager with GTK greeter.
+# [STATUS]: Active
+# [CAPABILITIES]: Login Manager for KDE, Xfce, i3 and custom desktop sessions.
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libX11client)
+include(libglib)
+
+# start of custom additions (edits outside this area will be removed automatically)
+accountsservice
+adwaita-icon-theme
+arc-theme
+at-spi2-core
+cantarell-fonts
+clear-font
+gdk-pixbuf
+hicolor-icon-theme
+include(fonts-basic)
+include(polkit)
+include(x11-server)
+liberation-fonts
+lightdm-gtk-greeter
+paper-icon-theme
+powerline-fonts
+terminus-font
+Vertex-theme
+xcursor-themes
+# end of custom additions
+
+# main package
+lightdm
