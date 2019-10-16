@@ -1,0 +1,58 @@
+# [TITLE]: dev-utils
+# [DESCRIPTION]: Assist application development.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+also-add(the_silver_searcher)
+include(git)
+include(openssl)
+include(perl-basic)
+include(python3-basic)
+asciidoc
+attr
+bash-completion
+bats
+include(bc)
+cgdb
+include(cloc)
+clr-debug-info
+include(cpio)
+cppcheck
+cscope
+debuginfo-cache
+diffstat
+include(diffutils)
+include(docutils)
+dwarves
+elfutils
+include(gdb)
+git-extras
+hexedit
+hub
+include(icdiff)
+include(inotify-tools)
+lcov
+glibc-bin
+include(linux-tools)
+include(llvm)
+include(devpkg-llvm)
+ltrace
+include(man-pages)
+meson
+metrics-discovery
+p7zip
+include(patch)
+patchutils
+quilt
+include(rsync)
+rt-tests
+scdoc
+source-highlight
+include(strace)
+stress-ng
+swupd-search
+tig
+trace-cmd
+unifdef
+include(valgrind)

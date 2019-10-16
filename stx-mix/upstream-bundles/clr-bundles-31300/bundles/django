@@ -1,0 +1,16 @@
+# [TITLE]: django
+# [DESCRIPTION]: Python model-view-template web framework.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Python
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(python3-basic)
+include(Sphinx)
+
+Django
+django-appconf
+django-babel
+django_compressor
+django-discover-runner
+django-nose
+django-pyscss
