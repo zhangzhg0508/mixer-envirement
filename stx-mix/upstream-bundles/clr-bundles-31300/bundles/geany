@@ -1,0 +1,17 @@
+# [TITLE]: geany
+# [DESCRIPTION]: A fast and lightweight IDE using GTK+.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(libX11client)
+include(libglib)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+geany-plugins
+# end of custom additions
+
+# main package
+geany

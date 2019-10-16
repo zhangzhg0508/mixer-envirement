@@ -1,0 +1,18 @@
+# [TITLE]: education-tertiary
+# [DESCRIPTION]: Educational applications for the tertiary school/university level.
+# [STATUS]: Active
+# [CAPABILITIES]: learning
+# [TAGS]: Education
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(desktop-gnomelibs)
+include(desktop-kde-libs)
+include(libX11client)
+include(qt-basic)
+include(R-basic)
+
+cantor
+fritzing-app
+kmplot
+kturtle
+marble

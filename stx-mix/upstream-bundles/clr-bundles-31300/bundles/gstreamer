@@ -1,0 +1,25 @@
+# [TITLE]: gstreamer
+# [DESCRIPTION]: Streaming media framework with graph-based structure.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Multimedia and Graphics, Developer Tools
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(libglib)
+
+# start of custom additions (edits outside this area will be removed automatically)
+gstreamer-vaapi
+gst-plugins-ugly
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-base
+libva-intel-driver
+intel-media-driver
+intel-gmmlib
+libva
+include(libX11client)
+include(lib-imageformat)
+# end of custom additions
+
+# main package
+gstreamer

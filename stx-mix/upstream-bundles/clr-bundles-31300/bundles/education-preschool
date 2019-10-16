@@ -1,0 +1,18 @@
+# [TITLE]: education-preschool
+# [DESCRIPTION]: Educational applications for the preschool level.
+# [STATUS]: Active
+# [CAPABILITIES]: learning
+# [TAGS]: Education
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(desktop-gnomelibs)
+include(desktop-kde-libs)
+include(libX11client)
+include(qt-basic)
+
+blinken
+gcompris-qt
+kanagram
+khangman
+klettres
+ktuberling

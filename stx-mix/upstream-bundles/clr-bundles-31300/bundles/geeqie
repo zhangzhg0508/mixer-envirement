@@ -1,0 +1,18 @@
+# [TITLE]: geeqie
+# [DESCRIPTION]: A GTK based image viewer and browser
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Multimedia and Graphics
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libX11client)
+include(lib-imageformat)
+include(libglib)
+include(libstdcpp)
+
+# start of custom additions (edits outside this area will be removed automatically)
+
+# end of custom additions
+
+# main package
+geeqie

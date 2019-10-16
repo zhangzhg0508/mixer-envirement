@@ -1,0 +1,23 @@
+# [TITLE]: education-secondary
+# [DESCRIPTION]: Educational applications for the secondary school level.
+# [STATUS]: Active
+# [CAPABILITIES]: learning
+# [TAGS]: Education
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(desktop-gnomelibs)
+include(desktop-kde-libs)
+include(libX11client)
+include(qt-basic)
+
+fritzing-app
+kbruch
+kgeography
+kig
+kmplot
+kstars
+ktuberling
+kturtle
+kwordquiz
+marble
+parley

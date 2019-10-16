@@ -1,0 +1,14 @@
+# [TITLE]: flare
+# [DESCRIPTION]: Single-player 2D isometric action role-playing game (RPG).
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Games
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+
+# start of custom additions (edits outside this area will be removed automatically)
+flare-game
+# end of custom additions
+
+# main package
+flare-engine

@@ -1,0 +1,18 @@
+# [TITLE]: gnome-base-libs
+# [DESCRIPTION]: Common libraries used by GNOME and related applications.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Other
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+
+include(libglib)
+include(libX11client)
+include(desktop-gnomelibs)
+
+gnome-desktop-lib
+gnome-online-accounts-lib
+gobject-introspection-lib
+libcanberra-lib
+libpeas-lib
+dbus-glib-lib
+gjs-lib

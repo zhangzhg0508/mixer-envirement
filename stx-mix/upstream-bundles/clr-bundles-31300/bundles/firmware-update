@@ -1,0 +1,15 @@
+# [TITLE]: firmware-update
+# [DESCRIPTION]: Update the system's firmware.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Other
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(cryptography)
+include(libX11client)
+include(python3-basic)
+
+clr-fwupd-hooks
+fwupd
+include(fwupdate)
+libsoup
+include(polkit)

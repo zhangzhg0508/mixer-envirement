@@ -1,0 +1,16 @@
+# [TITLE]: firefox
+# [DESCRIPTION]: Web browser with support for modern web applications from mozilla.org.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Productivity
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+include(libX11client)
+include(desktop-gnomelibs)
+include(python3-basic)
+
+# dependencies
+gdk-pixbuf
+
+
+# main application
+firefox

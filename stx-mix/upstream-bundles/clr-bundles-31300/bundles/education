@@ -1,0 +1,20 @@
+# [TITLE]: education
+# [DESCRIPTION]: Educational applications.
+# [STATUS]: Active
+# [CAPABILITIES]: learning
+# [TAGS]: Education
+# [MAINTAINER]: Brett T. Warden <brett.t.warden@intel.com>
+
+include(desktop-gnomelibs)
+include(desktop-kde-libs)
+include(libX11client)
+include(qt-basic)
+
+# This bundle is a superset of level-targeted education bundles
+include(education-preschool)
+include(education-primary)
+include(education-secondary)
+include(education-tertiary)
+
+include(gimp)
+gnome-tweaks

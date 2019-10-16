@@ -1,0 +1,12 @@
+# [TITLE]: editors
+# [DESCRIPTION]: Run popular terminal text editors.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Tools and Utilities, Editor
+# [MAINTAINER]: William Douglas <william.douglas@intel.com>
+# Run time requirement as vim is compiled to use libpython
+also-add(emacs)
+also-add(joe)
+also-add(vim)
+ctags
+nano

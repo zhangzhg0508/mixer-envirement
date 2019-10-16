@@ -1,0 +1,19 @@
+# [TITLE]: flatpak
+# [DESCRIPTION]: Run sandboxed desktop application bundles, or build flatpak packages.
+# [STATUS]: Active
+# [CAPABILITIES]: Provide an alternative way to obtain and run software on Clear Linux OS
+# [TAGS]: Productivity, Tools and Utilities
+# [MAINTAINER]: Auke Kok <auke-jan.h.kok@intel.com>
+
+include(libX11client)
+include(libglib)
+
+# start of custom additions (edits outside this area will be removed automatically)
+flatpak-builder
+include(git)
+include(libstdcpp)
+librsvg
+# end of custom additions
+
+# main package
+flatpak

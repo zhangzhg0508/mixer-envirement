@@ -1,0 +1,18 @@
+# [TITLE]: enterprise-login
+# [DESCRIPTION]: Enable enterprise login systems like Active Directory.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools, Tools and Utilities
+# [MAINTAINER]: Marcos Simental <marcos.simental.magana@intel.com>
+include(libglib)
+include(libstdcpp)
+include(openldap)
+include(python3-basic)
+include(samba)
+
+authconfig
+kerberos
+krb5
+nss-pam-ldapd
+requests-kerberos
+sssd
