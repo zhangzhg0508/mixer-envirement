@@ -1,0 +1,10 @@
+# [TITLE]: devpkg-gsettings-desktop-schemas
+# [DESCRIPTION]: All content for pkgconfig file gsettings-desktop-schemas.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+
+gsettings-desktop-schemas-dev

@@ -1,0 +1,21 @@
+# [TITLE]: devpkg-gnome-desktop
+# [DESCRIPTION]: All content for pkgconfig file gnome-desktop.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-gdk-pixbuf)
+include(libX11client)
+include(devpkg-glib)
+include(libglib)
+include(devpkg-gsettings-desktop-schemas)
+include(devpkg-gtk3)
+include(devpkg-iso-codes)
+include(devpkg-libX11)
+include(devpkg-libseccomp)
+include(devpkg-systemd)
+include(devpkg-xkeyboard-config)
+
+gnome-desktop-dev

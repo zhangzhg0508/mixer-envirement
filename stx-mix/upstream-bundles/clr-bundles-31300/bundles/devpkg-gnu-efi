@@ -1,0 +1,11 @@
+# [TITLE]: devpkg-gnu-efi
+# [DESCRIPTION]: All content for pkgconfig file gnu-efi.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+
+gnu-efi-dev
+gnu-efi-staticdev

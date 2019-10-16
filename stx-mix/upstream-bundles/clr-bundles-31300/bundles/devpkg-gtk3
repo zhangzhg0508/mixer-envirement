@@ -1,0 +1,26 @@
+# [TITLE]: devpkg-gtk3
+# [DESCRIPTION]: All content for pkgconfig file gtk3.pc.
+# [STATUS]: Active
+# [CAPABILITIES]:
+# [TAGS]: Developer Tools
+# [MAINTAINER]: Arjan van de Ven <arjan@linux.intel.com>
+
+include(devpkg-base)
+include(devpkg-at-spi2-atk)
+include(devpkg-atk)
+include(devpkg-cairo)
+include(devpkg-fontconfig)
+include(devpkg-fribidi)
+include(devpkg-gdk-pixbuf)
+include(libX11client)
+include(devpkg-glib)
+include(libglib)
+include(devpkg-libX11)
+include(devpkg-libXcursor)
+include(devpkg-libepoxy)
+include(devpkg-libxkbcommon)
+include(devpkg-pango)
+include(devpkg-wayland)
+include(devpkg-wayland-protocols)
+
+gtk3-dev
